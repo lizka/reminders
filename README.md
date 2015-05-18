@@ -8,6 +8,18 @@ This app serves as a reminders-api which can serve as a backend for a potential 
 
 To use the code you need to have java 8 installed and maven 3+.
 
+##Archetype
+
+The app was generated using a maven archetype for dropwizard apps, prepared by liberty-global. To use it, just type in 
+
+```mvn archetype:generate -DarchetypeGroupId=pl.najda -DarchetypeArtifactId=dw-archetype -DarchetypeVersion=1.1``` 
+
+or just 
+
+```mvn archetype:generate```
+
+and then choose the proper archetype (called ```dw-archetype```)
+
 ##Usage
 * Building the app 
 
